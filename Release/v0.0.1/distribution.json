@@ -553,17 +553,6 @@
           }
         },
         {
-          "id": ".DS_Store",
-          "name": ".DS_Store",
-          "type": "File",
-          "artifact": {
-            "size": 6148,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/.DS_Store",
-            "MD5": "1c5b1a2b4344510fc5582963c3e62c24",
-            "path": ".DS_Store"
-          }
-        },
-        {
           "id": "ambientsounds-client.json",
           "name": "ambientsounds-client.json",
           "type": "File",

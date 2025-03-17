@@ -20,8 +20,8 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.19.4-45.3.24",
@@ -443,16 +443,6 @@
           }
         },
         {
-          "id": "jp.axer.cocoainput.loader:cocoainput:4.2.1-EXPERIMENTAL@jar",
-          "name": "CocoaInput",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 209656,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/CocoaInput-1.19.4-forge-4.2.1-EXPERIMENTAL.jar",
-            "MD5": "9b79a9c845646ccb2af9e332328d8e46"
-          }
-        },
-        {
           "id": "team.creative:creativecore:2.10.22@jar",
           "name": "CreativeCore",
           "type": "ForgeMod",
@@ -473,16 +463,6 @@
           }
         },
         {
-          "id": "net.optifine:optifine:1.19.4_HD_U_I4@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7049103,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/OptiFine_1.19.4_HD_U_I4.jar",
-            "MD5": "2e58bf463ec7e9964fe381a5afc17da1"
-          }
-        },
-        {
           "id": "eu.ha3:presencefootsteps:1.19.4-1.8.0-beta-1@jar",
           "name": "Presence Footsteps (Forge)",
           "type": "ForgeMod",
@@ -493,16 +473,6 @@
           }
         },
         {
-          "id": "net.stardustlabs:structory:1.3.1a@jar",
-          "name": "Structory",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1243850,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/Structory_1.19.4_v1.3.1a.jar",
-            "MD5": "2a820777e226aeeb9ecc77e850db1b13"
-          }
-        },
-        {
           "id": "net.stardustlabs:terralith:2.3.12@jar",
           "name": "Terralith",
           "type": "ForgeMod",
@@ -510,16 +480,6 @@
             "size": 2978702,
             "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/Terralith_1.19.4_v2.3.12.jar",
             "MD5": "baca80c7ba460ab477d24814ad8a11c9"
-          }
-        },
-        {
-          "id": "xyz.trivaxy:tia:1.19.4-1.0@jar",
-          "name": "Tiny Item Animations",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 11009,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/tia-1.19.4-1.0-forge.jar",
-            "MD5": "e5fcb48b2b09cb266e7a1c614fef571e"
           }
         },
         {
@@ -543,13 +503,255 @@
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.19.4-2.5.8@jar",
-          "name": "Simple Voice Chat",
-          "type": "ForgeMod",
+          "id": "ambientsounds-client.json",
+          "name": "ambientsounds-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 3212,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/ambientsounds-client.json",
+            "MD5": "2895f33c90a2b5e4e13ede9a6fcb0678",
+            "path": "config/ambientsounds-client.json"
+          }
+        },
+        {
+          "id": "cocoainput.json",
+          "name": "cocoainput.json",
+          "type": "File",
+          "artifact": {
+            "size": 60,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/cocoainput.json",
+            "MD5": "c969c5b137fe98086ae0b08254beaa65",
+            "path": "config/cocoainput.json"
+          }
+        },
+        {
+          "id": "fallingleaves-client.toml",
+          "name": "fallingleaves-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 771,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/fallingleaves-client.toml",
+            "path": "config/fallingleaves-client.toml"
+          }
+        },
+        {
+          "id": "ferritecore-mixin.toml",
+          "name": "ferritecore-mixin.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1516,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/ferritecore-mixin.toml",
+            "path": "config/ferritecore-mixin.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 299,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/fml.toml",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1125,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/forge-client.toml",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "forge-common.toml",
+          "name": "forge-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 556,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/forge-common.toml",
+            "path": "config/forge-common.toml"
+          }
+        },
+        {
+          "id": "userconfig.json",
+          "name": "userconfig.json",
+          "type": "File",
+          "artifact": {
+            "size": 196,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/presencefootsteps/userconfig.json",
+            "MD5": "4ee0cab0ff249b805c89625b4900298d",
+            "path": "config/presencefootsteps/userconfig.json"
+          }
+        },
+        {
+          "id": "tia.toml",
+          "name": "tia.toml",
+          "type": "File",
+          "artifact": {
+            "size": 252,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/tia.toml",
+            "path": "config/tia.toml"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 248,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/toughasnails/client.toml",
+            "path": "config/toughasnails/client.toml"
+          }
+        },
+        {
+          "id": "temperature.toml",
+          "name": "temperature.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2499,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/toughasnails/temperature.toml",
+            "path": "config/toughasnails/temperature.toml"
+          }
+        },
+        {
+          "id": "thirst.toml",
+          "name": "thirst.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2073,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/toughasnails/thirst.toml",
+            "path": "config/toughasnails/thirst.toml"
+          }
+        },
+        {
+          "id": "treechop-client.toml",
+          "name": "treechop-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1589,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/treechop-client.toml",
+            "path": "config/treechop-client.toml"
+          }
+        },
+        {
+          "id": "treechop-common.toml",
+          "name": "treechop-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6630,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/treechop-common.toml",
+            "path": "config/treechop-common.toml"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1119,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/voicechat/translations.properties",
+            "MD5": "ba37489d4d0de4c12dab30eeee690898",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 108,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/voicechat/username-cache.json",
+            "MD5": "2fac7aaec29327f0ad7dc43b13d4b3d4",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3720,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/voicechat/voicechat-client.properties",
+            "MD5": "8bbca49ee1d30c9eb4929f94f7245085",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1815,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/voicechat/voicechat-server.properties",
+            "MD5": "9af6fd3f2cff35c1990fab6a51ea77ed",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-volumes.properties",
+          "name": "voicechat-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/voicechat/voicechat-volumes.properties",
+            "MD5": "a11015bb92e3d9c781d7247fbf73c5b3",
+            "path": "config/voicechat/voicechat-volumes.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.toml",
+          "name": "voicechat-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/voicechat-client.toml",
+            "path": "config/voicechat-client.toml"
+          }
+        },
+        {
+          "id": "CocoaInput-1.19.4-forge-4.2.1-EXPERIMENTAL.jar",
+          "name": "CocoaInput-1.19.4-forge-4.2.1-EXPERIMENTAL.jar",
+          "type": "File",
+          "artifact": {
+            "size": 209656,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/mods/CocoaInput-1.19.4-forge-4.2.1-EXPERIMENTAL.jar",
+            "MD5": "9b79a9c845646ccb2af9e332328d8e46",
+            "path": "mods/CocoaInput-1.19.4-forge-4.2.1-EXPERIMENTAL.jar"
+          }
+        },
+        {
+          "id": "OptiFine_1.19.4_HD_U_I4.jar",
+          "name": "OptiFine_1.19.4_HD_U_I4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7049103,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/mods/OptiFine_1.19.4_HD_U_I4.jar",
+            "MD5": "2e58bf463ec7e9964fe381a5afc17da1",
+            "path": "mods/OptiFine_1.19.4_HD_U_I4.jar"
+          }
+        },
+        {
+          "id": "tia-1.19.4-1.0-forge.jar",
+          "name": "tia-1.19.4-1.0-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11009,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/mods/tia-1.19.4-1.0-forge.jar",
+            "MD5": "e5fcb48b2b09cb266e7a1c614fef571e",
+            "path": "mods/tia-1.19.4-1.0-forge.jar"
+          }
+        },
+        {
+          "id": "voicechat-forge-1.19.4-2.5.8.jar",
+          "name": "voicechat-forge-1.19.4-2.5.8.jar",
+          "type": "File",
           "artifact": {
             "size": 7706036,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/voicechat-forge-1.19.4-2.5.8.jar",
-            "MD5": "883623ff8a9a1f0661e4acd648aa089b"
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/mods/voicechat-forge-1.19.4-2.5.8.jar",
+            "MD5": "883623ff8a9a1f0661e4acd648aa089b",
+            "path": "mods/voicechat-forge-1.19.4-2.5.8.jar"
           }
         },
         {
@@ -569,7 +771,6 @@
           "artifact": {
             "size": 362,
             "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/optionsshaders.txt",
-            "MD5": "626fa129ab7587391ae0cefe232c4b4a",
             "path": "optionsshaders.txt"
           }
         },
@@ -585,14 +786,14 @@
           }
         },
         {
-          "id": "Fullbright-UB-1.21.zip",
-          "name": "Fullbright-UB-1.21.zip",
+          "id": "Fullbright-UB-1.20.zip",
+          "name": "Fullbright-UB-1.20.zip",
           "type": "File",
           "artifact": {
-            "size": 247176,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/resourcepacks/Fullbright-UB-1.21.zip",
-            "MD5": "85780785eafc6de1a30f4cd398cebee2",
-            "path": "resourcepacks/Fullbright-UB-1.21.zip"
+            "size": 247028,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/resourcepacks/Fullbright-UB-1.20.zip",
+            "MD5": "4cc02aed0a4eaa80a53984857da6e1e3",
+            "path": "resourcepacks/Fullbright-UB-1.20.zip"
           }
         },
         {

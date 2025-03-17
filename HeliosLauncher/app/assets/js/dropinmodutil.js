@@ -186,17 +186,6 @@ exports.scanForShaderpacks = function(instanceDir){
 exports.getEnabledShaderpack = function(instanceDir){
     exports.validateDir(instanceDir)
 
-    // 먼저 Oculus 설정 확인
-    const oculusConfig = path.join(instanceDir, OCULUS_CONFIG)
-    if(fs.existsSync(oculusConfig)){
-        const buf = fs.readFileSync(oculusConfig, {encoding: 'utf-8'})
-        const match = OCULUS_SHADER_OPTION.exec(buf)
-        if(match != null && buf.includes('enableShaders=true')){
-            return match[1]
-        }
-    }
-
-    // 기존 OptiFine 설정 확인
     const optionsShaders = path.join(instanceDir, SHADER_CONFIG)
     if(fs.existsSync(optionsShaders)){
         const buf = fs.readFileSync(optionsShaders, {encoding: 'utf-8'})
@@ -219,24 +208,6 @@ exports.getEnabledShaderpack = function(instanceDir){
 exports.setEnabledShaderpack = function(instanceDir, pack){
     exports.validateDir(instanceDir)
 
-    // Oculus 설정 업데이트
-    const oculusConfig = path.join(instanceDir, OCULUS_CONFIG)
-    if(fs.existsSync(oculusConfig)){
-        let buf = fs.readFileSync(oculusConfig, {encoding: 'utf-8'})
-        if(pack === 'OFF'){
-            buf = buf.replace('enableShaders=true', 'enableShaders=false')
-        } else {
-            buf = buf.replace('enableShaders=false', 'enableShaders=true')
-            if(buf.match(OCULUS_SHADER_OPTION)){
-                buf = buf.replace(OCULUS_SHADER_OPTION, `shaderPack=${pack}`)
-            } else {
-                buf += `\nshaderPack=${pack}`
-            }
-        }
-        fs.writeFileSync(oculusConfig, buf, {encoding: 'utf-8'})
-    }
-
-    // 기존 OptiFine 설정 업데이트
     const optionsShaders = path.join(instanceDir, SHADER_CONFIG)
     let buf = ''
     if(fs.existsSync(optionsShaders)){

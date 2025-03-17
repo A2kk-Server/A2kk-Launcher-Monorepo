@@ -11,7 +11,7 @@
       "id": "a2kk-1.19.4",
       "name": "a2kk (Minecraft 1.19.4)",
       "description": "a2kk Running Minecraft 1.19.4 (Forge v45.3.24)",
-      "icon": null,
+      "icon": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/icon.png",
       "version": "1.0.0",
       "address": "raincloud001.iptime.org:44466",
       "minecraftVersion": "1.19.4",
@@ -470,6 +470,16 @@
             "size": 129623,
             "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/Fallingleaves-1.19.4-2.1.0.jar",
             "MD5": "09219261a41b675a0e1cc3a82d5c5bb4"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.19.4_HD_U_I4",
+          "name": "Optifine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7049103,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/OptiFine_1.19.4_HD_U_I4.jar",
+            "MD5": "2e58bf463ec7e9964fe381a5afc17da1"
           }
         },
         {

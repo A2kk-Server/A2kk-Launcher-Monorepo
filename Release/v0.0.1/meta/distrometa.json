@@ -1,5 +1,5 @@
 {
-  "$schema": "file:///Users/hellosunghyun/Documents/Github/SpearfishForest4-Launcher-Monorepo/Release/v0.0.1/schemas/DistroMetaSchema.schema.json",
+  "$schema": "file:///Users/hellosunghyun/A2kk-Launcher-Monorepo/Release/v0.0.1/schemas/DistroMetaSchema.schema.json",
   "meta": {
     "rss": "<LINK TO RSS FEED>",
     "discord": {

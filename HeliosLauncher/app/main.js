@@ -9,7 +9,7 @@ const semver = require('semver')
 const logger = LoggerUtil.getLogger('Main')
 
 // 업데이트 서버 URL 설정
-const updateServer = 'https://github.com/Kevin-Studio-Dev/SpearfishForest4-Launcher-Monorepo'
+const updateServer = 'https://github.com/A2kk-Server/A2kk-Launcher-Monorepo'
 
 // 현재 버전 가져오기
 const currentVersion = require('../package.json').version
@@ -27,7 +27,7 @@ function setupAutoUpdater(win) {
                 win.webContents.send('autoUpdateNotification', 'checking-for-update')
                 
                 // GitHub API를 통해 최신 릴리즈 버전 확인
-                fetch('https://api.github.com/repos/Kevin-Studio-Dev/SpearfishForest4-Launcher-Monorepo/releases/latest')
+                fetch('https://api.github.com/repos/A2kk-Server/A2kk-Launcher-Monorepo/releases/latest')
                     .then(response => {
                         if (!response.ok) {
                             throw new Error('GitHub API 요청 실패')

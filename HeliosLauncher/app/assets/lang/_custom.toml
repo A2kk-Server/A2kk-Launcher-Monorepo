@@ -1,7 +1,7 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "SpearfishForest4"
+title = "A2kk"
 
 [ejs.landing]
 
@@ -10,6 +10,6 @@ sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
 supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
 
 [ejs.welcome]
-welcomeHeader = "청새치숲에 오신 것을 환영합니다, 너굴!"
-welcomeDescription = "호오오~ 안녕하시다너굴!<br>저는 청새치의 숲 마을 대표 너굴이라너굴~<br>여러분을 이 특별한 마을에서 만나게 되어 정말 기쁘다너굴!<br>우리 마을에는 재미있는 것들이 가득하다너굴~<br>여러분만의 집도 짓고, 친구들과 함께 농사도 짓고, 낚시도 하면서 즐거운 시간을 보내보시라너굴!<br>자, 이제 여러분의 새로운 모험이 시작된다너굴~!"
-welcomeDescCTA = "청새치숲에서 여러분만의 이야기를 만들어보시라너굴~!"
+welcomeHeader = "Welcome to A2kk!"
+welcomeDescription = "Let's get started!"
+welcomeDescCTA = "Click to Play"

@@ -1,13 +1,13 @@
 {
-  "name": "spearfishforest4",
-  "version": "1.0.6",
-  "productName": "SpearfishForest4",
+  "name": "A2kk",
+  "version": "1.0.0",
+  "productName": "A2kk",
   "description": "Modded Minecraft Launcher",
   "author": "Sunghyun Kim",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/Kevin-Studio-Dev/SpearfishForest4-Launcher-Monorepo",
+  "homepage": "https://github.com/A2kk-Server/A2kk-Launcher-Monorepo",
   "bugs": {
-    "url": "https://github.com/Kevin-Studio-Dev/SpearfishForest4-Launcher-Monorepo/issues"
+    "url": "https://github.com/A2kk-Server/A2kk-Launcher-Monorepo/issues"
   },
   "private": true,
   "main": "index.js",
@@ -47,16 +47,16 @@
     "eslint": "^8.57.1"
   },
   "build": {
-    "appId": "com.spearfishforest4.launcher",
-    "productName": "SpearfishForest4",
+    "appId": "com.A2kk.launcher",
+    "productName": "A2kk",
     "directories": {
       "output": "dist"
     },
     "publish": [
       {
         "provider": "github",
-        "owner": "Kevin-Studio-Dev",
-        "repo": "SpearfishForest4-Launcher-Monorepo"
+        "owner": "A2kk-Server",
+        "repo": "A2kk-Launcher-Monorepo"
       }
     ],
     "artifactName": "${productName}-${os}.${ext}",
@@ -104,6 +104,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kevin-Studio-Dev/SpearfishForest4-Launcher-Monorepo.git"
+    "url": "git+https://github.com/A2kk-Server/A2kk-Launcher-Monorepo.git"
   }
 }

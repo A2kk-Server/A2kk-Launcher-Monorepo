@@ -4,7 +4,7 @@ addEventListener('fetch', event => {
 
 async function handleRequest(request) {
   const url = new URL(request.url);
-  const githubBaseUrl = 'https://raw.githubusercontent.com/Kevin-Studio-Dev/SpearfishForest4-Launcher-Monorepo';
+  const githubBaseUrl = 'https://raw.githubusercontent.com/A2kk-Server/A2kk-Launcher-Monorepo';
   
   const pathParts = url.pathname.split('/');
   const releaseType = pathParts[1];

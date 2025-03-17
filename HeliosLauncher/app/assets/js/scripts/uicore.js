@@ -188,7 +188,7 @@ function showUpdatePopup(newVersion) {
         updateButton.disabled = true
         laterButton.style.display = 'none'
         statusMessage.classList.add('visible')
-        shell.openExternal('https://github.com/Kevin-Studio-Dev/SpearfishForest4-Launcher-Monorepo/releases/latest/download/SpearfishForest4-mac.dmg')
+        shell.openExternal('https://github.com/A2kk-Server/A2kk-Launcher-Monorepo/releases/latest/download/A2kk-mac.dmg')
         modalContainer.remove()
     }
 

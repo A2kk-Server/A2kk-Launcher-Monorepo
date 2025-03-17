@@ -1529,7 +1529,7 @@ function populateSettingsUpdateInformation(data){
         
         if(process.platform === 'darwin'){
             settingsUpdateButtonStatus(Lang.queryJS('settings.updates.downloadButton'), false, () => {
-                shell.openExternal('https://github.com/Kevin-Studio-Dev/SpearfishForest4-Launcher-Monorepo/releases/latest/download/SpearfishForest4-mac.dmg')
+                shell.openExternal('https://github.com/A2kk-Server/A2kk-Launcher-Monorepo/releases/latest/download/A2kk-mac.dmg')
             })
         } else {
             settingsUpdateButtonStatus(Lang.queryJS('settings.updates.downloadingButton'), true)
@@ -1618,7 +1618,7 @@ if (settingsUpdateButton) {
                 if (process.platform === 'darwin') {
                     const response = confirm(`새로운 버전 ${info.version}이(가) 있습니다.\n\n${info.releaseNotes || '새로운 업데이트가 있습니다.'}\n\n지금 다운로드하시겠습니까?`)
                     if (response) {
-                        shell.openExternal(`https://github.com/Kevin-Studio-Dev/SpearfishForest4-Launcher-Monorepo/releases/download/v${info.version}/HeliosLauncher-${info.version}.dmg`)
+                        shell.openExternal(`https://github.com/A2kk-Server/A2kk-Launcher-Monorepo/releases/download/v${info.version}/HeliosLauncher-${info.version}.dmg`)
                     }
                 }
                 break

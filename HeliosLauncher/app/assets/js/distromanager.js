@@ -2,8 +2,8 @@ const { DistributionAPI } = require('helios-core/common')
 
 const ConfigManager = require('./configmanager')
 
-exports.REMOTE_DISTRO_URL_LATEST = 'https://publish.spearforest.spearfish.mfhz.me/latest/distribution.json'
-exports.REMOTE_DISTRO_URL_PRERELEASE = 'https://publish.spearforest.spearfish.mfhz.me/prerelease/distribution.json'
+exports.REMOTE_DISTRO_URL_LATEST = 'https://a2kk-launcher.hellosunghyun.workers.dev/latest/distribution.json'
+exports.REMOTE_DISTRO_URL_PRERELEASE = 'https://a2kk-launcher.hellosunghyun.workers.dev/prerelease/distribution.json'
 
 exports.DistroAPI = null
 

@@ -1,1 +1,0 @@
-{"version":3,"file":"DistroMeta.js","sourceRoot":"","sources":["../../../src/model/nebula/DistroMeta.ts"],"names":[],"mappings":"AAcA,MAAM,UAAU,oBAAoB;IAEhC,OAAO;QAEH,IAAI,EAAE;YACF,GAAG,EAAE,oBAAoB;YACzB,OAAO,EAAE;gBACL,QAAQ,EAAE,oCAAoC;gBAC9C,cAAc,EAAE,oCAAoC;gBACpD,aAAa,EAAE,oCAAoC;aACtD;SACJ;KAEJ,CAAA;AAEL,CAAC"}

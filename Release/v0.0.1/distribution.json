@@ -473,16 +473,6 @@
           }
         },
         {
-          "id": "net.optifine:optifine:1.19.4_HD_U_I4@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7049103,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/OptiFine_1.19.4_HD_U_I4.jar",
-            "MD5": "2e58bf463ec7e9964fe381a5afc17da1"
-          }
-        },
-        {
           "id": "eu.ha3:presencefootsteps:1.19.4-1.8.0-beta-1@jar",
           "name": "Presence Footsteps (Forge)",
           "type": "ForgeMod",

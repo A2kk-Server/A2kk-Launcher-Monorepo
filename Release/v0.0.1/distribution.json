@@ -11,7 +11,7 @@
       "id": "a2kk-1.19.4",
       "name": "a2kk (Minecraft 1.19.4)",
       "description": "a2kk Running Minecraft 1.19.4 (Forge v45.3.24)",
-      "icon": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/a2kk-1.19.4.png",
+      "icon": null,
       "version": "1.0.0",
       "address": "raincloud001.iptime.org:44466",
       "minecraftVersion": "1.19.4",
@@ -20,7 +20,7 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
@@ -490,6 +490,16 @@
             "size": 7099368,
             "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/PresenceFootsteps-1.19.4-1.8.0-beta-1-forge.jar",
             "MD5": "34c9ec33b0d088d10c0723b045bd5b7d"
+          }
+        },
+        {
+          "id": "net.stardustlabs:structory:1.3.1a@jar",
+          "name": "Structory",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1243850,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/Structory_1.19.4_v1.3.1a.jar",
+            "MD5": "2a820777e226aeeb9ecc77e850db1b13"
           }
         },
         {

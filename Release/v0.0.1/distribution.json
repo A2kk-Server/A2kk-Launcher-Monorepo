@@ -443,6 +443,16 @@
           }
         },
         {
+          "id": "jp.axer.cocoainput.loader:cocoainput:4.2.1-EXPERIMENTAL@jar",
+          "name": "CocoaInput",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 209656,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/CocoaInput-1.19.4-forge-4.2.1-EXPERIMENTAL.jar",
+            "MD5": "9b79a9c845646ccb2af9e332328d8e46"
+          }
+        },
+        {
           "id": "team.creative:creativecore:2.10.22@jar",
           "name": "CreativeCore",
           "type": "ForgeMod",
@@ -460,6 +470,16 @@
             "size": 129623,
             "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/Fallingleaves-1.19.4-2.1.0.jar",
             "MD5": "09219261a41b675a0e1cc3a82d5c5bb4"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.19.4_HD_U_I4@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7049103,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/OptiFine_1.19.4_HD_U_I4.jar",
+            "MD5": "2e58bf463ec7e9964fe381a5afc17da1"
           }
         },
         {
@@ -493,6 +513,16 @@
           }
         },
         {
+          "id": "xyz.trivaxy:tia:1.19.4-1.0@jar",
+          "name": "Tiny Item Animations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11009,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/tia-1.19.4-1.0-forge.jar",
+            "MD5": "e5fcb48b2b09cb266e7a1c614fef571e"
+          }
+        },
+        {
           "id": "toughasnails.core:toughasnails:1.19.4-8.2.0.90@jar",
           "name": "Tough As Nails",
           "type": "ForgeMod",
@@ -510,6 +540,16 @@
             "size": 330706,
             "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/TreeChop-1.19.4-forge-0.17.9.jar",
             "MD5": "ebda04498578059ccd46900ccc4997e3"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.19.4-2.5.8@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7706036,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/voicechat-forge-1.19.4-2.5.8.jar",
+            "MD5": "883623ff8a9a1f0661e4acd648aa089b"
           }
         },
         {
@@ -730,50 +770,6 @@
             "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/voicechat-client.toml",
             "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
             "path": "config/voicechat-client.toml"
-          }
-        },
-        {
-          "id": "CocoaInput-1.19.4-forge-4.2.1-EXPERIMENTAL.jar",
-          "name": "CocoaInput-1.19.4-forge-4.2.1-EXPERIMENTAL.jar",
-          "type": "File",
-          "artifact": {
-            "size": 209656,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/mods/CocoaInput-1.19.4-forge-4.2.1-EXPERIMENTAL.jar",
-            "MD5": "9b79a9c845646ccb2af9e332328d8e46",
-            "path": "mods/CocoaInput-1.19.4-forge-4.2.1-EXPERIMENTAL.jar"
-          }
-        },
-        {
-          "id": "OptiFine_1.19.4_HD_U_I4.jar",
-          "name": "OptiFine_1.19.4_HD_U_I4.jar",
-          "type": "File",
-          "artifact": {
-            "size": 7049103,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/mods/OptiFine_1.19.4_HD_U_I4.jar",
-            "MD5": "2e58bf463ec7e9964fe381a5afc17da1",
-            "path": "mods/OptiFine_1.19.4_HD_U_I4.jar"
-          }
-        },
-        {
-          "id": "tia-1.19.4-1.0-forge.jar",
-          "name": "tia-1.19.4-1.0-forge.jar",
-          "type": "File",
-          "artifact": {
-            "size": 11009,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/mods/tia-1.19.4-1.0-forge.jar",
-            "MD5": "e5fcb48b2b09cb266e7a1c614fef571e",
-            "path": "mods/tia-1.19.4-1.0-forge.jar"
-          }
-        },
-        {
-          "id": "voicechat-forge-1.19.4-2.5.8.jar",
-          "name": "voicechat-forge-1.19.4-2.5.8.jar",
-          "type": "File",
-          "artifact": {
-            "size": 7706036,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/mods/voicechat-forge-1.19.4-2.5.8.jar",
-            "MD5": "883623ff8a9a1f0661e4acd648aa089b",
-            "path": "mods/voicechat-forge-1.19.4-2.5.8.jar"
           }
         },
         {

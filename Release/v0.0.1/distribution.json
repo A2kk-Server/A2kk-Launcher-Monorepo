@@ -473,13 +473,13 @@
           }
         },
         {
-          "id": "net.optifine:optifine:1.19.4_HD_U_I3@jar",
+          "id": "net.optifine:optifine:1.19.4_HD_U_I4@jar",
           "name": "OptiFine",
           "type": "ForgeMod",
           "artifact": {
-            "size": 6979831,
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/OptiFine_1.19.4_HD_U_I3.jar",
-            "MD5": "828dbdc2b79fb46c5fbfb0c60778b3c4"
+            "size": 7049103,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/OptiFine_1.19.4_HD_U_I4.jar",
+            "MD5": "2e58bf463ec7e9964fe381a5afc17da1"
           }
         },
         {

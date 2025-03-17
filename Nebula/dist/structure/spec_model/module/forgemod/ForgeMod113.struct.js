@@ -25,33 +25,6 @@ export class ForgeModStructure113 extends BaseForgeModStructure {
         return capitalize((await this.getModMetadata(name, path)).mods[0].displayName);
     }
     processZip(zip, name, path) {
-        // Optifine is a tweak that can be loaded as a forge mod. It does not
-        // appear to contain a mcmod.info class. This a special case we will
-        // account for.
-        if (name.toLowerCase().includes('optifine')) {
-            // Read zip for changelog.txt
-            let changelogBuf;
-            try {
-                changelogBuf = zip.entryDataSync('changelog.txt');
-            }
-            catch (err) {
-                throw new Error('Failed to read OptiFine changelog.');
-            }
-            const info = changelogBuf.toString().split('\n')[0].trim();
-            const version = info.split(' ')[1];
-            this.modMetadata[name] = ({
-                modLoader: 'javafml',
-                loaderVersion: '',
-                mods: [{
-                        modId: 'optifine',
-                        version,
-                        displayName: 'OptiFine',
-                        description: `OptiFine is a Minecraft optimization mod.
-                    It allows Minecraft to run faster and look better with full support for shaders, HD textures and many configuration options.`
-                    }]
-            });
-            return this.modMetadata[name];
-        }
         let raw;
         try {
             raw = zip.entryDataSync('META-INF/mods.toml');

@@ -28,28 +28,6 @@ export class ForgeModStructure17 extends BaseForgeModStructure {
         return version.trim().length === 0 || version.includes('@') || version.includes('$');
     }
     processZip(zip, name, path) {
-        // Optifine is a tweak that can be loaded as a forge mod. It does not
-        // appear to contain a mcmod.info class. This a special case we will
-        // account for.
-        if (name.toLowerCase().includes('optifine')) {
-            // Read zip for changelog.txt
-            let changelogBuf;
-            try {
-                changelogBuf = zip.entryDataSync('changelog.txt');
-            }
-            catch (err) {
-                throw new Error('Failed to read OptiFine changelog.');
-            }
-            const info = changelogBuf.toString().split('\n')[0].trim();
-            const version = info.split(' ')[1];
-            this.modMetadata[name] = ({
-                modid: 'optifine',
-                name: info,
-                version,
-                mcversion: version.substring(0, version.indexOf('_'))
-            });
-            return this.modMetadata[name];
-        }
         let raw;
         try {
             raw = zip.entryDataSync('mcmod.info');

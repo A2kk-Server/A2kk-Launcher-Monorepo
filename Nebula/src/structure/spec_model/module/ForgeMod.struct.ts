@@ -23,12 +23,7 @@ export abstract class BaseForgeModStructure<T> extends BaseModStructure<T> imple
     public abstract isForVersion(version: MinecraftVersion, libraryVersion: string): boolean
 
     protected getClaritasExceptions(): ClaritasException[] {
-        return [{
-            exceptionName: 'optifine',
-            proxyMetadata: {
-                group: 'net.optifine'
-            }
-        }]
+        return []
     }
 
     protected getClaritasType(): LibraryType {

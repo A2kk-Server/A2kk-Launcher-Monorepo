@@ -7,12 +7,7 @@ export class BaseForgeModStructure extends BaseModStructure {
         super(absoluteRoot, relativeRoot, 'forgemods', baseUrl, minecraftVersion, Type.ForgeMod, untrackedFiles);
     }
     getClaritasExceptions() {
-        return [{
-                exceptionName: 'optifine',
-                proxyMetadata: {
-                    group: 'net.optifine'
-                }
-            }];
+        return [];
     }
     getClaritasType() {
         return LibraryType.FORGE;

@@ -24,83 +24,83 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.19.4-45.1.0",
+          "id": "net.minecraftforge:lowcodelanguage:1.19.4-45.3.24",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
             "size": 7377,
-            "MD5": "2a0a0919935c86e6c453c983ad0ff3a6",
-            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/lowcodelanguage/1.19.4-45.1.0/lowcodelanguage-1.19.4-45.1.0.jar"
+            "MD5": "71d9c23adb9515d4bd235387a3ac23ed",
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/lowcodelanguage/1.19.4-45.3.24/lowcodelanguage-1.19.4-45.3.24.jar"
           },
           "subModules": [
             {
-              "id": "1.19.4-45.1.0",
+              "id": "1.19.4-45.3.24",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 15497,
-                "MD5": "c71975bf289b245c80460311778eb06c",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/versions/1.19.4-forge-45.1.0/1.19.4-forge-45.1.0.json"
+                "size": 16515,
+                "MD5": "9edc3ed802ba31662c8aab6eb80e0bfb",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/versions/1.19.4-forge-45.3.24/1.19.4-forge-45.3.24.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.19.4-45.1.0",
+              "id": "net.minecraftforge:fmlcore:1.19.4-45.3.24",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 116107,
-                "MD5": "c8a476bb922457edbe0df67b4e10c633",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/fmlcore/1.19.4-45.1.0/fmlcore-1.19.4-45.1.0.jar"
+                "size": 117437,
+                "MD5": "9ce9039abf4cbb88e37611863559a866",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/fmlcore/1.19.4-45.3.24/fmlcore-1.19.4-45.3.24.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.19.4-45.1.0",
+              "id": "net.minecraftforge:javafmllanguage:1.19.4-45.3.24",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 16351,
-                "MD5": "11b947915c78a531ff257064df6c0be8",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/javafmllanguage/1.19.4-45.1.0/javafmllanguage-1.19.4-45.1.0.jar"
+                "size": 16833,
+                "MD5": "3d3965d5876ae09e21cbc565b5eba3ed",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/javafmllanguage/1.19.4-45.3.24/javafmllanguage-1.19.4-45.3.24.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.19.4-45.1.0",
+              "id": "net.minecraftforge:mclanguage:1.19.4-45.3.24",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 4985,
-                "MD5": "edfde7c5d7c953005b32ecdf8e56cc08",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/mclanguage/1.19.4-45.1.0/mclanguage-1.19.4-45.1.0.jar"
+                "size": 4987,
+                "MD5": "58e1c1071414a2adb6510824c4d230ad",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/mclanguage/1.19.4-45.3.24/mclanguage-1.19.4-45.3.24.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.19.4-45.1.0:universal",
+              "id": "net.minecraftforge:forge:1.19.4-45.3.24:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 2673219,
-                "MD5": "3ff471dfa0562cc44ce1db343ffa68fe",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/forge/1.19.4-45.1.0/forge-1.19.4-45.1.0-universal.jar"
+                "size": 2796803,
+                "MD5": "86b9555e9778d3589cc9d5f46ee13a8d",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/forge/1.19.4-45.3.24/forge-1.19.4-45.3.24-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.19.4-45.1.0:client",
+              "id": "net.minecraftforge:forge:1.19.4-45.3.24:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 5467201,
-                "MD5": "ecb567a33c08e70c729eb8caa9cd1720",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/forge/1.19.4-45.1.0/forge-1.19.4-45.1.0-client.jar"
+                "size": 5522877,
+                "MD5": "dd59bf042e2662a52a49a5ffc45aa114",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/forge/1.19.4-45.3.24/forge-1.19.4-45.3.24-client.jar"
               },
               "subModules": []
             },
@@ -151,53 +151,53 @@
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.5",
+              "id": "org.ow2.asm:asm:9.7.1",
               "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 121863,
-                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.5",
+              "id": "org.ow2.asm:asm-commons:9.7.1",
               "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 72209,
-                "MD5": "7d1fce986192f71722b19754e4cb9e61",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.5",
+              "id": "org.ow2.asm:asm-tree:9.7.1",
               "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 51944,
-                "MD5": "44755681b7d6fa7143afbb438e55c20c",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.5",
+              "id": "org.ow2.asm:asm-util:9.7.1",
               "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 91076,
-                "MD5": "ad0016249fb68bb9196babefd47b80dc",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.5",
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
               "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 33978,
-                "MD5": "4df0adafc78ebba404d4037987d36b61",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
               }
             },
             {
@@ -241,13 +241,13 @@
               }
             },
             {
-              "id": "net.minecraftforge:coremods:5.0.1",
+              "id": "net.minecraftforge:coremods:5.2.4",
               "name": "Minecraft Forge (coremods)",
               "type": "Library",
               "artifact": {
-                "size": 24199,
-                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
               }
             },
             {
@@ -351,13 +351,13 @@
               }
             },
             {
-              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
               "name": "Minecraft Forge (nashorn-core)",
               "type": "Library",
               "artifact": {
-                "size": 2167288,
-                "MD5": "91e98c20afa1090c344229ce28b4c53f",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
               }
             },
             {
@@ -381,6 +381,26 @@
               }
             },
             {
+              "id": "net.java.dev.jna:jna:5.12.1",
+              "name": "Minecraft Forge (jna)",
+              "type": "Library",
+              "artifact": {
+                "size": 1866196,
+                "MD5": "3bab13d7f5ca715013fcac64ceb4108d",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar"
+              }
+            },
+            {
+              "id": "net.java.dev.jna:jna-platform:5.12.1",
+              "name": "Minecraft Forge (jna-platform)",
+              "type": "Library",
+              "artifact": {
+                "size": 1356627,
+                "MD5": "061ec627ed090f59104e33cea38c97cd",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar"
+              }
+            },
+            {
               "id": "cpw.mods:bootstraplauncher:1.1.2",
               "name": "Minecraft Forge (bootstraplauncher)",
               "type": "Library",
@@ -401,13 +421,13 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.19.4-45.1.0",
+              "id": "net.minecraftforge:fmlloader:1.19.4-45.3.24",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 261128,
-                "MD5": "89a308d0dcb659be84f3010532ce2d5c",
-                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/fmlloader/1.19.4-45.1.0/fmlloader-1.19.4-45.1.0.jar"
+                "size": 263504,
+                "MD5": "18bb7c4a999889de57ec17d66361cd7f",
+                "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/repo/lib/net/minecraftforge/fmlloader/1.19.4-45.3.24/fmlloader-1.19.4-45.3.24.jar"
               }
             }
           ]

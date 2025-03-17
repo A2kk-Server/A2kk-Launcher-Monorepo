@@ -34,7 +34,7 @@ gamma:1.0
 renderDistance:15
 simulationDistance:12
 entityDistanceScaling:1.0
-guiScale:2
+guiScale:3
 particles:0
 maxFps:0
 graphicsMode:1
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:2
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["mod_resources","vanilla","file/Dramatic Skys Demo 1.5.3.32.zip"]
-incompatibleResourcePacks:["file/Dramatic Skys Demo 1.5.3.32.zip"]
+resourcePacks:["mod_resources","vanilla","file/Dramatic Skys Demo 1.5.3.32.zip","file/Fullbright-UB-1.21.zip"]
+incompatibleResourcePacks:["file/Dramatic Skys Demo 1.5.3.32.zip","file/Fullbright-UB-1.21.zip"]
 lastServer:
 lang:ko_kr
 soundDevice:""

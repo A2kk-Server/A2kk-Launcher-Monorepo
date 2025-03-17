@@ -473,6 +473,16 @@
           }
         },
         {
+          "id": "net.coderbot.iris:oculus:1.5.2@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2748251,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/oculus-1.5.2.jar",
+            "MD5": "f59220133dfcabf13ab90cc75ad7be3b"
+          }
+        },
+        {
           "id": "eu.ha3:presencefootsteps:1.19.4-1.8.0-beta-1@jar",
           "name": "Presence Footsteps (Forge)",
           "type": "ForgeMod",
@@ -480,6 +490,16 @@
             "size": 7099368,
             "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/PresenceFootsteps-1.19.4-1.8.0-beta-1-forge.jar",
             "MD5": "34c9ec33b0d088d10c0723b045bd5b7d"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.4@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 599872,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/forgemods/required/rubidium-0.6.4.jar",
+            "MD5": "e2b45431e6a3f4524819521956f992a9"
           }
         },
         {
@@ -620,6 +640,17 @@
           }
         },
         {
+          "id": "oculus.properties",
+          "name": "oculus.properties",
+          "type": "File",
+          "artifact": {
+            "size": 247,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/oculus.properties",
+            "MD5": "bdf3d7c2b89b75c9650ecac73730ba41",
+            "path": "config/oculus.properties"
+          }
+        },
+        {
           "id": "userconfig.json",
           "name": "userconfig.json",
           "type": "File",
@@ -628,6 +659,28 @@
             "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/presencefootsteps/userconfig.json",
             "MD5": "4ee0cab0ff249b805c89625b4900298d",
             "path": "config/presencefootsteps/userconfig.json"
+          }
+        },
+        {
+          "id": "rubidium-mixins.properties",
+          "name": "rubidium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/rubidium-mixins.properties",
+            "MD5": "6f5f12de22f04364e57a623174cf1484",
+            "path": "config/rubidium-mixins.properties"
+          }
+        },
+        {
+          "id": "rubidium-options.json",
+          "name": "rubidium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 625,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/config/rubidium-options.json",
+            "MD5": "16ba0e8a206b6dae405951ff841b41ca",
+            "path": "config/rubidium-options.json"
           }
         },
         {

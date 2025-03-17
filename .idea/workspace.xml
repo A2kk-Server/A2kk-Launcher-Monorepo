@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e519822-4df9-4981-b16f-2bf12b1d8efe" name="변경" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Release/v0.0.1/servers/a2kk-1.19.4/files/config/oculus.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Release/v0.0.1/servers/a2kk-1.19.4/files/config/rubidium-mixins.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Release/v0.0.1/servers/a2kk-1.19.4/files/config/rubidium-options.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +58,7 @@
       <recent name="$PROJECT_DIR$/Nebula" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Release/v0.0.1/servers/a2kk-1.19.4/files/config" />
       <recent name="$PROJECT_DIR$/Release/v0.0.1/servers/a2kk-1.19.4/forgemods/required" />
       <recent name="$PROJECT_DIR$/Release/v0.0.1/servers/a2kk-1.19.4/files/resourcepacks" />
     </key>
@@ -80,7 +83,7 @@
       <workItem from="1742207784687" duration="20000" />
       <workItem from="1742207814177" duration="176000" />
       <workItem from="1742207996310" duration="220000" />
-      <workItem from="1742208272422" duration="1740000" />
+      <workItem from="1742208272422" duration="2528000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -162,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742209754691</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init">
+      <option name="closed" value="true" />
+      <created>1742210032017</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742210032017</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

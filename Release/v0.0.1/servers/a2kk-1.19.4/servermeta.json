@@ -17,5 +17,15 @@
   "forge": {
     "version": "45.3.24"
   },
-  "untrackedFiles": []
+  "untrackedFiles": [
+    {
+      "appliesTo": ["files"],
+      "patterns": [
+        "config/*.cfg",
+        "config/**/*.yml",
+        "config/**/*.toml",
+        "options.txt"
+      ]
+    }
+  ]
 }

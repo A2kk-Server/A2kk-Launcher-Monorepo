@@ -559,8 +559,18 @@
           "artifact": {
             "size": 4280,
             "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/options.txt",
-            "MD5": "a60620a4f96a8b77ad5eccf8a1f07e40",
             "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 362,
+            "url": "https://a2kk-launcher.hellosunghyun.workers.dev/latest/servers/a2kk-1.19.4/files/optionsshaders.txt",
+            "MD5": "626fa129ab7587391ae0cefe232c4b4a",
+            "path": "optionsshaders.txt"
           }
         },
         {
